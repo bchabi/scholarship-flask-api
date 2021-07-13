@@ -47,4 +47,4 @@ def searchQuery(word):
                 'message': 'query not found'},404
     else:
         return {'query' : word,
-        'results' : results}
+        'results' : results}, 200
